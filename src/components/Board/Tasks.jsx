@@ -13,7 +13,7 @@ const Tasks = () => {
   //
   const addActivity=()=>{
     setTodo([...todo,task])
-     
+     setTask("")
       
   
    
@@ -22,7 +22,7 @@ const Tasks = () => {
   console.log("todo",todo)
   return (
     <>
-      <div className="bg-white shadow-sm min-h-[450px] mt-4 p-3 rounded-md">
+      <div className="bg-white shadow-sm min-h-[250px] mt-4 p-3 rounded-md">
         <div className="flex justify-between h-[50px] border-b border-gray-200 items-center">
           <h6>Tasks</h6>
           <div className="">
